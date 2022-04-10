@@ -24,7 +24,7 @@ public class UiController : MonoBehaviour
     {
         _fruitsPanel.HideFruitsButton();
         _winText.gameObject.SetActive(true);
-        _failText.text = $"Matching {matching} %";
+        _winText.text = $"Matching {matching} %";
         _startButton.gameObject.SetActive(true);
     }
 
