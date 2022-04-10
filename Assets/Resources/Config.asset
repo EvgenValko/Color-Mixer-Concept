@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a842f432460448d198673e43eed7e3f3, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: 
+  _levels:
+  - _fruits:
+    - {fileID: 11400000, guid: 2415abdd856def7429c58e5b33dbbf2c, type: 2}
+    - {fileID: 11400000, guid: a8822c82dfeaf3e4993da2a1e88398f7, type: 2}
+    _color: {r: 0.7372549, g: 0.98823535, b: 0, a: 1}
+  - _fruits:
+    - {fileID: 11400000, guid: 2415abdd856def7429c58e5b33dbbf2c, type: 2}
+    - {fileID: 11400000, guid: 117c0a0ea3cf88f41a880aed325bb439, type: 2}
+    - {fileID: 11400000, guid: 8119e2a43a1351b429f232da58457fdc, type: 2}
+    _color: {r: 0.8941177, g: 0.6039216, b: 0, a: 1}
+  - _fruits:
+    - {fileID: 11400000, guid: ec23a3357c968544487356e34b0df24e, type: 2}
+    - {fileID: 11400000, guid: 3fe778117cea8034698e7b0f28d73083, type: 2}
+    - {fileID: 11400000, guid: b2b173b67bfe42d44bb766695ddcb581, type: 2}
+    _color: {r: 0.5647059, g: 0, b: 0.08235294, a: 1}
+  _blenderConfig:
+    _maxFruitsInBlender: 25
+    _blendDuration: 2
+    _blendSpeed: 10000
+  _fruitButtonPrefab: {fileID: -7484579571086651494, guid: 1dd38937d39b3f9478e0d927ec4996c2, type: 3}
+  _fruitMoveDuration: 1
+  _matchingToWin: 75
